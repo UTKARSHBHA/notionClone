@@ -1,0 +1,6 @@
+Q: what is the use of cn in className? 
+it is used to combine two styles without creating any conflict like tailwind styles and normal css can also used when styles are added on condition
+
+N: directory name under parantesis does not affect the route and used to structure the files
+
+N: directories starting with underscore are ignored by the routes
