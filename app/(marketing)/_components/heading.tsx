@@ -28,7 +28,7 @@ const Heading = () => {
       )}
       {isAuthenticated && !isLoading && (
         <Button asChild>
-          <Link href="/">
+          <Link href="/documents">
             Enter Potion
             <ArrowRight className="h-4 w-4 ml-2" />
           </Link>

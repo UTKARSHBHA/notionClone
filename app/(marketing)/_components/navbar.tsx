@@ -48,7 +48,6 @@ const Navbar = () => {
           </>
         )}
         <ModeToggle />
-        Login
       </div>
     </div>
   );
