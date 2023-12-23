@@ -5,3 +5,6 @@
 
 ## Init shadcn-ui
 ![shadcn-ui config](public/docImages/shadcn-ui-init.png "shadcn-ui config")
+
+## Initialize convex with clerk
+use its docs
