@@ -17,6 +17,14 @@ const Logo = () => {
             height="40"
             width ="40"
             alt= "logo"
+            className='dark:hidden'
+        />
+        <Image
+            src="/logo_dark.png"
+            height="40"
+            width ="40"
+            alt= "logo"
+            className='hidden dark:block'
         />
         <p className={cn("font-semibold", font.className)}>
             Potion
