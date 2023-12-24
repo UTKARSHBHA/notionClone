@@ -5,6 +5,7 @@ import { ChevronLeft, MenuIcon } from "lucide-react";
 import { usePathname } from "next/navigation";
 import React, { useRef, ElementRef, useState, useEffect } from "react";
 import { useMediaQuery } from "usehooks-ts";
+import UserItem from "./user-item";
 
 const Navigation = () => {
   const isMobile = useMediaQuery("(max-width: 786px)");
@@ -45,7 +46,7 @@ const Navigation = () => {
     let newWidth = event.clientX;
 
     if (newWidth < 240) newWidth = 240;
-    if (newWidth > 240) newWidth = 480;
+    if (newWidth > 480) newWidth = 480;
 
     if (sidebarRef.current && navbarRef.current) {
       sidebarRef.current.style.width = `${newWidth}px`;
@@ -110,7 +111,7 @@ const Navigation = () => {
           <ChevronLeft className="h-6 w-6" />
         </div>
         <div>
-          <p>Action items</p>
+          <UserItem/>
         </div>
         <div className="mt-4">
           <p>Documents</p>
