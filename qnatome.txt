@@ -10,3 +10,5 @@ N: convex for backend(db)
 N: clerk for authentication
 
 N: to stop user from going to an authorized page manually (by changing url), we can redirect them by checking the authentication, to root page, if not authorized. the logic has to be in layout file and in folder with parantesis in its name
+
+N: usind zustand to search??
