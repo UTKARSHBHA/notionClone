@@ -13,16 +13,16 @@ const Logo = () => {
     
     <div className='hidden md:flex item-center gap-x-2'>
         <Image
-            src="/logo_light.png"
-            height="40"
-            width ="40"
+            src="/logo_light.svg"
+            height="20"
+            width ="20"
             alt= "logo"
             className='dark:hidden'
         />
         <Image
-            src="/logo_dark.png"
-            height="40"
-            width ="40"
+            src="/logo_dark.svg"
+            height="20"
+            width ="20"
             alt= "logo"
             className='hidden dark:block'
         />
