@@ -1,11 +1,11 @@
 Key Features:
 
-- Real-time database  🔗 
-- Notion-style editor 📝 
+- Real-time database  🔗
+- Notion-style editor 📝
 - Light and Dark mode 🌓
 - Infinite children documents 🌲
 - Trash can & soft delete 🗑️
-- Authentication 🔐 
+- Authentication 🔐
 - File upload
 - File deletion
 - File replacement
